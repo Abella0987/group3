@@ -1,0 +1,211 @@
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    
+}
+:root{
+    --green:#215a1d;
+}
+
+  /* header  style  starts */
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: .5rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.logo img{
+    width: 12rem;
+    height: 5rem;
+}
+  
+nav a{
+    padding: 10px;
+    color: black;
+}
+
+.buttons{
+    padding: 30px 0;
+}
+.buttons a{
+    border: 1px solid #072e04;
+    border-radius: .5rem;
+    padding: 1.3rem 3rem;
+    font-weight: 800; 
+}
+
+.buttons .login{
+    color: var(--green);
+}
+.buttons .create{
+    color: #fff;
+    background: var(--green);
+}
+.buttons .login:hover{
+    color: #fff;
+    background:var(--green);
+}
+.buttons .create:hover{
+    color:var(--green);
+    background: #fff;
+    border: none;
+}
+/* End of header style */
+
+/*  home section  style  starts */
+
+.home{
+    padding: 10rem;
+    align-items: center;
+    text-align: center;    
+}
+.home h1{
+    font-size: 4.7rem;
+    color: #525752;
+}
+.home p{
+    font-size: 1.4rem;
+    color: #5e675e;
+}
+.home h1, p{
+    padding: .5rem 20%;
+}
+.home-box{
+    display: flex;
+    align-items: center;
+    padding: 1.8rem 22%;
+    padding-top: 3rem;
+    gap: 8px;
+}
+.home-box a {
+    border-radius: .55rem;
+    box-shadow: 1.6px 8px 2px #0f7008;
+    background:var(--green);
+    padding: 1.3rem 3rem;  
+    font-size:1.3rem;
+    color: #fff;
+}
+.downloaded-pnglogo {
+    width: 10rem;
+    height: 4rem;
+}
+.home-box a:hover{
+   background: #fff;
+   box-shadow: 5px 10px #fff;
+   box-shadow: 1.2px 7px 7px #5e675e;
+}
+/* End of home section style */
+
+/* home section  style  starts  */
+
+.ready-heading{
+    padding: 0px 30%;
+    text-align: center;
+}
+.ready-heading h1{
+    font-size: 2.7rem;
+    color: #3f443f;
+    padding-bottom: 12px;
+}
+.box{
+    width: 75%;
+    margin-left: 12rem;
+    margin-bottom: .95rem;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 2px 4px 10px 5px;
+    background: var(--green);
+    padding: 2rem 4rem;
+    display: flex;
+    color: #fff;
+}
+.ready-img{
+    width: 16rem;
+    height: 18rem;
+}
+.box .box-section1{
+    padding-right:.8rem ;
+}
+.box .box-section1 p{
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.box .box-section1 p span{
+    font-weight: 800;
+}
+.box .box-section2{
+       text-align: start;
+       padding-left: 10rem;
+}
+.box .box-section2 h2
+{
+    font-size: 3.6rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+.box .box-section2 .rent-text{
+    font-size: 2rem;
+}
+.box .box-section2 .explore{
+    font-size: 1.2rem;
+}
+.box .box-section2 .heading-box{
+    padding-bottom: 5.7rem;
+}
+
+.another-section  {
+   display: flex;
+   width: 10%;
+   padding: 2rem;
+   column-gap: 2rem;
+   margin-left: 13%;
+}
+
+.another-section .affordable{
+   background: #fff;
+   border-radius: 2rem;
+   padding:2rem;
+   box-shadow: 2px 4px 10px 5px;
+}
+.another-section .buy{
+    background: var(--green);
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 2px 4px 10px 5px;
+    color: #fff;
+}
+.heading-box-1{
+    font-size: 3rem;
+    font-weight: 350;
+    padding: 2rem 3rem;
+}
+.heading-box-1 .heading1{
+     margin-bottom: 2rem;
+}
+.rent{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+.explore{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.my-picture{
+    width: 26rem;
+    height: 15rem;
+}
+
+
+/* End of home section style */
+
