@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-    
+    overflow-x: hidden;
 }
 :root{
     --green:#215a1d;
@@ -107,7 +107,7 @@ nav a{
 }
 /* End of home section style */
 
-/* home section  style  starts  */
+/* ready section  style  starts  */
 
 .ready-heading{
     padding: 0px 30%;
@@ -120,14 +120,14 @@ nav a{
 }
 .box{
     width: 75%;
-    margin-left: 12rem;
+    display: flex;
+    align-content: center;
     margin-bottom: .95rem;
     height: 100%;
     border-radius: 2rem;
     box-shadow: 2px 4px 10px 5px;
     background: var(--green);
     padding: 2rem 4rem;
-    display: flex;
     color: #fff;
 }
 .ready-img{
@@ -165,11 +165,11 @@ nav a{
 }
 
 .another-section  {
-   display: flex;
-   width: 10%;
-   padding: 2rem;
-   column-gap: 2rem;
-   margin-left: 13%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+    padding: 5%;
+    width: 100%;
 }
 
 .another-section .affordable{
